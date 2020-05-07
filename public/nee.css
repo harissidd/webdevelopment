@@ -1,0 +1,200 @@
+.header_top{
+
+    background-color: #316DC3;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one{
+    margin-left: 7%;
+    flex: 1;   
+    padding-top: 8px;
+}
+.two{
+        flex:2;
+        color: white;       
+        text-align: left;
+        padding: 13px 0 0 0 ;       
+}
+.three{
+        flex: 1;
+        align-content: center;
+        padding: 10px ;   
+}
+.icon_header{
+    justify-content: space-around;  
+}   
+.logo_menu{
+    background-color: #f7f8fa ;
+    display:flex;
+}
+.logo{
+   margin-left: 7%;
+}
+.menu{
+    padding-top: 12px;
+    width: 1000px;
+}
+.marquee1{
+    background-color: #316DC3;
+    width: 800px;
+}
+.title-icon{
+        text-align: center;
+}
+.conunt{
+    margin-top: 20px;
+    background-color: #316DC3;
+    color: white;
+    padding: 0 17%;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column{
+    text-align: center;
+}
+.list   {
+    display: flex;
+    text-align: center;
+}
+.li{
+    padding: 15px;
+}
+.what_we{
+    text-align: center;
+    background-color: #f7f8fa;
+}
+.doing ,.doingg{
+    margin: 30px;
+    display:flex;
+    padding: 0 220px;
+}
+.main_what{
+    background-color: #f7f8fa;
+}
+.dastar,.educ,.plant,.medical,.welfare, .sadqah{
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+        background-color: white;
+        padding: 30px;
+        text-align: center;
+        width: 100%;
+        margin-left: 2%
+        
+    }
+h4{
+        color: #316DC3;
+        font-size: 20px;
+        
+    }
+.up{
+        display: flex;
+        background: white;
+        padding :25px 100px;
+        
+    }
+.upcoming{
+        display: flex;
+        background: white;
+        padding: 20px 10%;
+
+    }
+.coming{
+        display:flex;
+
+    }
+    
+.li1 ,.li2, .li3, .li4{
+        display:flex;
+        flex-direction: row;
+        padding: 10px;
+        background-color: #f7f8fa;
+        width: 300px;
+        white-space: pre-wrap;
+        border: 1px solid #eeeeee;
+        justify-content: space-around
+}
+.li1,.li3{
+    margin-right: 8%
+}
+    
+.footer{
+        background-color: #666666;
+        color: white;
+        display: flex;
+        padding: 3%;
+        justify-content: space-around;
+    }
+
+@media only screen and (max-width: 600px){
+    .header_top{
+        display: block;
+        width: auto;
+    }
+    .logo_menu {
+        display: block;
+        width: auto;
+    }
+    .slideshow-container{
+        width: auto;
+    }
+    .title-icon{
+        width: auto;
+    }
+    .marquee1{
+        width: auto;
+    }
+    .conunt{
+        width: auto;
+    }
+    .what_we{
+        width: auto;
+    }
+    .upcoming{
+        width: auto;
+    }
+    .gallery{
+        width: auto;
+    }
+    .footer{
+        width: auto;
+    }
+
+}
+@media only screen and (max-width :800px)
+{
+    .header_top{
+        display: block;
+        width: auto;
+    }
+    .logo_menu {
+        display: block;
+        width: auto;
+    }
+    .slideshow-container{
+        width: auto;
+    }
+    .title-icon{
+        width: auto;
+    }
+    .marquee1{
+        width: auto;
+    }
+    .conunt{
+        width: auto;
+    }
+    .what_we{
+        width: auto;
+    }
+    .upcoming{
+        width: auto;
+    }
+    .gallery{
+        width: auto;
+    }
+    .footer{
+        width: auto;
+    }
+}
